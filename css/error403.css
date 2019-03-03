@@ -1,1 +1,21 @@
 /* specifieke stijlregels voor 403-pagina */
+body {
+    background-image: url(../afbeeldingen/stop-sign-1174658_640.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+div {
+    font-size: 20px;
+} 
+
+@media screen and (min-width:500px) {
+    body {
+        color: red;
+    }

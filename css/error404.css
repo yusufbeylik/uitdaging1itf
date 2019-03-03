@@ -1,1 +1,23 @@
 /* specifieke stijlregels voor 404-pagina */
+body {
+    background-image: url(../afbeeldingen/dl.maxpixel.freegreatpicture.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+div {
+    position: absolute;
+    right: 50px;
+    font-size: 20px;
+} 
+
+@media screen and (min-width:500px) {
+    body {
+        color: red;
+    }
